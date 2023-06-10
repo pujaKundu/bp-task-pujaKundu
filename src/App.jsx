@@ -4,7 +4,7 @@ import './App.css'
 
 function App() {
   return (
-    <div className="w-screen">
+    <div className="w-screen overflow-x-hidden">
       <Router>
         <Navbar />
         <Routes>
