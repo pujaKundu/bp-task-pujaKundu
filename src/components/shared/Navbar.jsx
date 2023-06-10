@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import logo from '../../assets/logo.png'
+import logo from "../../assets/logo.png";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,9 +8,9 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
- 
+
   return (
-    <nav className="bg-white w-full fixed top-0 py-[52px] shadow-lg">
+    <nav className="bg-white w-full fixed top-0 py-[52px] shadow-md">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center ml-16">
@@ -27,42 +28,39 @@ const Navbar = () => {
               </a>
               <a
                 href="#"
-                className="text-black hover:text-[#C82333] p-[10px] rounded-md  font-bold"
+                className="text-black visited:text-[#C82333] hover:text-[#C82333] p-[10px] rounded-md  font-bold"
               ></a>
               <a
                 href="#"
-                className="text-black hover:text-[#C82333] p-[10px]  rounded-md  font-bold"
+                className="text-black visited:text-[#C82333] hover:text-[#C82333] p-[10px]  rounded-md  font-bold"
               >
                 Privacy Policy
               </a>
               <a
                 href="#"
-                className="text-black hover:text-[#C82333] px-3 py-2 rounded-md  font-bold"
+                className="text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md  font-bold"
               >
                 Terms Conditions
               </a>
               <a
                 href="#"
-                className="text-black hover:text-[#C82333] px-3 py-2 rounded-md  font-bold"
+                className="text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md  font-bold"
               >
                 About Us
               </a>
               <a
                 href="#"
-                className="text-black hover:text-[#C82333] px-3 py-2 rounded-md  font-bold"
+                className="text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md  font-bold"
               >
                 Contact Us
               </a>
               <a
                 href="#"
-                className="text-black hover:text-[#C82333] px-3 py-2 rounded-md pr-8 font-bold"
+                className="text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md pr-8 font-bold"
               >
                 Advertise
               </a>
-              <button
-                href="#"
-                className="text-white bg-[#C82333]  hover:bg-red-700 border-0 px-3 py-2 rounded-md  "
-              >
+              <button className="text-white bg-[#C82333]  hover:bg-red-700 border-0 px-3 py-2 rounded-md  ">
                 Join Now
               </button>
             </div>
@@ -93,41 +91,41 @@ const Navbar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden">
-          <div className="px-2 pt-2 pb-3 sm:px-3">
-            <a
-              href="#"
+        <div className="md:hidden ">
+          <div className="px-2 pt-2 pb-3 sm:px-3 transition delay-150 ease-in-out">
+            <NavLink
+              
               className="block text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md text-base font-bold"
             >
               Home
-            </a>
+            </NavLink>
             <a
-              href="#"
-              className="block text-black hover:text-[#C82333] px-3 py-2 rounded-md text-base font-bold"
+              
+              className="block text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md text-base font-bold"
             >
               Privacy Policy
             </a>
             <a
               href="#"
-              className="block text-black hover:text-[#C82333] px-3 py-2 rounded-md text-base font-bold"
+              className="block text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md text-base font-bold"
             >
               Term Conditions
             </a>
             <a
               href="#"
-              className="block text-black hover:text-[#C82333] px-3 py-2 rounded-md text-base font-bold"
+              className="block text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md text-base font-bold"
             >
               About Us
             </a>
             <a
               href="#"
-              className="block text-black hover:text-[#C82333] px-3 py-2 rounded-md text-base font-bold"
+              className="block text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md text-base font-bold"
             >
               Contact Us
             </a>
             <a
               href="#"
-              className="block text-black hover:text-[#C82333] px-3 py-2 rounded-md text-base font-bold"
+              className="block text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md text-base font-bold"
             >
               Advertise
             </a>
