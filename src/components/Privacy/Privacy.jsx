@@ -160,7 +160,7 @@ const Privacy = () => {
       </div>
       <div className="mx-8  mt-12">
         <p className="text-black">Disclosure of Data</p>
-        <p className="text-black mt-5">Legal Requierments</p>
+        <p className="text-black">Legal Requierments</p>
         <p className="text-black my-5">
           Desh Career may disclose your Data in the good faith belief that such
           action is necessary to:
