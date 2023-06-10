@@ -3,3 +3,8 @@ export { default as Hero } from "./Hero/HeroSection.jsx";
 export { default as Homepage } from "./Homepage/Homepage.jsx";
 export { default as Icons } from "./utils/Icons.jsx";
 export { default as Footer } from "./shared/Footer.jsx";
+export { default as Privacy } from "./Privacy/Privacy.jsx";
+export { default as Terms } from "./Terms/Terms.jsx";
+export { default as About } from "./About/About.jsx";
+export { default as Contact } from "./Contact/Contact.jsx";
+export { default as Advertise } from "./Advertise/Advertise.jsx";

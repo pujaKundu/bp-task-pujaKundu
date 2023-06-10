@@ -20,46 +20,43 @@ const Navbar = () => {
           </div>
           <div className="hidden md:block mr-16">
             <div className="ml-10 flex items-baseline -space-x-2">
-              <a
-                href="#"
+              <NavLink
+                to="/"
                 className="text-black visited:text-[#C82333] hover:text-[#C82333] p-[10px] rounded-md  font-bold"
               >
                 Home
-              </a>
-              <a
-                href="#"
-                className="text-black visited:text-[#C82333] hover:text-[#C82333] p-[10px] rounded-md  font-bold"
-              ></a>
-              <a
-                href="#"
+              </NavLink>
+
+              <NavLink
+                to="/privacy"
                 className="text-black visited:text-[#C82333] hover:text-[#C82333] p-[10px]  rounded-md  font-bold"
               >
                 Privacy Policy
-              </a>
-              <a
-                href="#"
+              </NavLink>
+              <NavLink
+                to="/terms"
                 className="text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md  font-bold"
               >
                 Terms Conditions
-              </a>
-              <a
-                href="#"
+              </NavLink>
+              <NavLink
+                to="/about"
                 className="text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md  font-bold"
               >
                 About Us
-              </a>
-              <a
-                href="#"
+              </NavLink>
+              <NavLink
+                to="/contact"
                 className="text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md  font-bold"
               >
                 Contact Us
-              </a>
-              <a
-                href="#"
+              </NavLink>
+              <NavLink
+                to="/advertise"
                 className="text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md pr-8 font-bold"
               >
                 Advertise
-              </a>
+              </NavLink>
               <button className="text-white bg-[#C82333]  hover:bg-red-700 border-0 px-3 py-2 rounded-md  ">
                 Join Now
               </button>
@@ -93,42 +90,43 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 sm:px-3 ">
-            <a
-              href="#"
-              className="block text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md text-base font-bold"
+            <NavLink
+              to="/"
+              className="text-black visited:text-[#C82333] hover:text-[#C82333] p-[10px] rounded-md  font-bold"
             >
               Home
-            </a>
-            <a
-              
-              className="block text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md text-base font-bold"
+            </NavLink>
+
+            <NavLink
+              to="/privacy"
+              className="text-black visited:text-[#C82333] hover:text-[#C82333] p-[10px]  rounded-md  font-bold"
             >
               Privacy Policy
-            </a>
-            <a
-              href="#"
-              className="block text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md text-base font-bold"
+            </NavLink>
+            <NavLink
+              to="/terms"
+              className="text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md  font-bold"
             >
-              Term Conditions
-            </a>
-            <a
-              href="#"
-              className="block text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md text-base font-bold"
+              Terms Conditions
+            </NavLink>
+            <NavLink
+              to="/about"
+              className="text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md  font-bold"
             >
               About Us
-            </a>
-            <a
-              href="#"
-              className="block text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md text-base font-bold"
+            </NavLink>
+            <NavLink
+              to="/contact"
+              className="text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md  font-bold"
             >
               Contact Us
-            </a>
-            <a
-              href="#"
-              className="block text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md text-base font-bold"
+            </NavLink>
+            <NavLink
+              to="/advertise"
+              className="text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md pr-8 font-bold"
             >
               Advertise
-            </a>
+            </NavLink>
             <button
               href="#"
               className="text-white bg-[#C82333] hover:bg-red-700 border-0 px-3 py-2 rounded-md  "
