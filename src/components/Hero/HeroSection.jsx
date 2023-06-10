@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeroSection = () => {
   return (
-    <div className="text-left mx-24 mt-56  w-[45em]">
+    <div className="text-left mx-24 mt-48  w-[50em]">
       <h1 className="text-[#192733] text-[50px] font-bold pb-5 space-y-4">
         {" "}
         Get Smarter about your <br /> career

@@ -1,4 +1,4 @@
-import { Homepage, Navbar } from "./components/index";
+import { Footer, Homepage, Navbar } from "./components/index";
 import './App.css'
 
 function App() {
@@ -6,6 +6,7 @@ function App() {
     <div className="w-screen">
       <Navbar />
       <Homepage />
+      <Footer/>
     </div>
   );
 }
