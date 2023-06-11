@@ -8,3 +8,6 @@ export { default as Terms } from "./Terms/Terms.jsx";
 export { default as About } from "./About/About.jsx";
 export { default as Contact } from "./Contact/Contact.jsx";
 export { default as Advertise } from "./Advertise/Advertise.jsx";
+export { default as FAQ } from "./FAQ/FAQ.jsx";
+export { default as Affiliate } from "./Affiliate/Affiliate.jsx";
+export { default as NotFound } from "./NotFound/NotFound.jsx";

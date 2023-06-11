@@ -22,38 +22,38 @@ const Navbar = () => {
             <div className="ml-10 flex items-baseline -space-x-2">
               <NavLink
                 to="/"
-                className="text-black visited:text-[#C82333] hover:text-[#C82333] p-[10px] rounded-md  font-bold"
+                className="text-black active:text-[#C82333] hover:text-[#C82333] p-[10px] rounded-md  font-bold"
               >
                 Home
               </NavLink>
 
               <NavLink
                 to="/privacy"
-                className="text-black visited:text-[#C82333] hover:text-[#C82333] p-[10px]  rounded-md  font-bold"
+                className="text-black active:text-[#C82333] hover:text-[#C82333] p-[10px]  rounded-md  font-bold"
               >
                 Privacy Policy
               </NavLink>
               <NavLink
                 to="/terms"
-                className="text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md  font-bold"
+                className="text-black active:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md  font-bold"
               >
                 Terms Conditions
               </NavLink>
               <NavLink
                 to="/about"
-                className="text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md  font-bold"
+                className="text-black active:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md  font-bold"
               >
                 About Us
               </NavLink>
               <NavLink
                 to="/contact"
-                className="text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md  font-bold"
+                className="text-black active:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md  font-bold"
               >
                 Contact Us
               </NavLink>
               <NavLink
                 to="/advertise"
-                className="text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md pr-8 font-bold"
+                className="text-black active:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md pr-8 font-bold"
               >
                 Advertise
               </NavLink>
@@ -88,48 +88,48 @@ const Navbar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden">
-          <div className="px-2 pt-2 pb-3 sm:px-3 ">
+        <div className="md:hidden ">
+          <div className="px-2 pt-2 pb-3 sm:px-3 flex flex-col justify-center items-center">
             <NavLink
               to="/"
-              className="text-black visited:text-[#C82333] hover:text-[#C82333] p-[10px] rounded-md  font-bold"
+              className="text-black active:text-[#C82333] hover:text-[#C82333] p-[10px] rounded-md  font-bold"
             >
               Home
             </NavLink>
 
             <NavLink
               to="/privacy"
-              className="text-black visited:text-[#C82333] hover:text-[#C82333] p-[10px]  rounded-md  font-bold"
+              className="text-black active:text-[#C82333] hover:text-[#C82333] p-[10px]  rounded-md  font-bold"
             >
               Privacy Policy
             </NavLink>
             <NavLink
               to="/terms"
-              className="text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md  font-bold"
+              className="text-black active:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md  font-bold"
             >
               Terms Conditions
             </NavLink>
             <NavLink
               to="/about"
-              className="text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md  font-bold"
+              className="text-black active:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md  font-bold"
             >
               About Us
             </NavLink>
             <NavLink
               to="/contact"
-              className="text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md  font-bold"
+              className="text-black active:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md  font-bold"
             >
               Contact Us
             </NavLink>
             <NavLink
               to="/advertise"
-              className="text-black visited:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md pr-8 font-bold"
+              className="text-black active:text-[#C82333] hover:text-[#C82333] px-3 py-2 rounded-md pr-8 font-bold"
             >
               Advertise
             </NavLink>
             <button
               href="#"
-              className="text-white bg-[#C82333] hover:bg-red-700 border-0 px-3 py-2 rounded-md  "
+              className="text-white bg-[#C82333] w-44 hover:bg-red-700 border-0 px-3 py-2 rounded-md  "
             >
               Join Now
             </button>

@@ -3,7 +3,7 @@ import { Hero } from "../../components/index";
 
 const Homepage = () => {
   return (
-    <div className="w-screen">
+    <div className="">
       <Hero />
     </div>
   );

@@ -1,10 +1,11 @@
 import React from "react";
 import Icons from "../utils/Icons";
-import logo from '../../assets/logo.png'
+import logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="bg-[#0F0D32] mt-[62px] mb-0 px-24 sm:w-[50em] lg:w-full md:w-full">
+    <div className="bg-[#0F0D32] mt-[62px] mb-0 px-24 sm:w-[50em] lg:w-full md:w-full overflow-x-hidden">
       <Icons />
       <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 ">
         <div>
@@ -19,28 +20,28 @@ const Footer = () => {
           <h5 className="text-white fonr-bold text-xl">Privacy And Terms</h5>
           <div className="mt-8">
             <p>
-              <a
+              <Link
                 className="text-gray-500 hover:text-gray-300 leading-10"
-                href=""
+                to="/privacy"
               >
                 Privacy Policy
-              </a>
+              </Link>
             </p>
             <p>
-              <a
+              <Link
+                to="/terms"
                 className="text-gray-500 hover:text-gray-300 leading-10"
-                href=""
               >
                 Terms Condition
-              </a>
+              </Link>
             </p>
             <p>
-              <a
+              <Link
+                to="/faq"
                 className="text-gray-500 hover:text-gray-300 leading-10"
-                href=""
               >
                 FAQ
-              </a>
+              </Link>
             </p>
           </div>
         </div>
@@ -48,28 +49,28 @@ const Footer = () => {
           <h5 className="text-white fonr-bold text-xl">Support</h5>
           <div className="mt-8">
             <p>
-              <a
+              <Link
+                to="/affiliate"
                 className="text-gray-500 hover:text-gray-300 leading-10"
-                href=""
               >
                 Affiliate Link
-              </a>
+              </Link>
             </p>
             <p>
-              <a
+              <Link
+                to="/contact"
                 className="text-gray-500 hover:text-gray-300 leading-10"
-                href=""
               >
                 Contact Us
-              </a>
+              </Link>
             </p>
             <p>
-              <a
+              <Link
+                to="/advertise"
                 className="text-gray-500 hover:text-gray-300 leading-10"
-                href=""
               >
                 Advertise with us
-              </a>
+              </Link>
             </p>
           </div>
         </div>

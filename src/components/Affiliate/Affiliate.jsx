@@ -1,17 +1,12 @@
 import React from 'react'
 
-const HeroSection = () => {
+const Affiliate = () => {
   return (
-    <div className="text-left lg:ml-28 mt-56 lg:w-[45em] overflow-x-hidden">
+    <div className="text-left lg:ml-28 mt-56 lg:w-[45em]">
       <h1 className="text-[#192733] text-[50px] font-bold pb-5 space-y-4 mx-8">
         {" "}
-        Get Smarter about your <br /> career
+        Search your Invitation
       </h1>
-      <p className="mx-8">
-        Get the{" "}
-        <span className="font-bold text-black">5-minute newsletter</span>{" "}
-        keeping about smart career
-      </p>
       <div className="flex items-center justify-center shadow-lg rounded my-2 mx-8">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -37,14 +32,8 @@ const HeroSection = () => {
           Join Free
         </button>
       </div>
-      <p className="pt-5 leading-8 text-justify  text-black mx-8">
-        We're committed to your privacy. DashCareer uses the information you
-        provide to contact you about our relevant content and services. You may
-        unsubscribe from these communications at any time. For more information,
-        check out our Privacy Policy.
-      </p>
     </div>
   );
 }
 
-export default HeroSection
+export default Affiliate

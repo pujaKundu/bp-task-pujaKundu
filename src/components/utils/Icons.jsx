@@ -2,9 +2,12 @@ import React from 'react'
 
 const Icons = () => {
   return (
-    <div>
+    <>
       <div className="flex justify-center py-4 pt-12">
-        <span className="border rounded pl-2">
+        <a
+          href="https://www.facebook.com/deshcareer"
+          className="border rounded pl-2"
+        >
           <svg
             viewBox="0 0 24 24"
             fill="none"
@@ -25,8 +28,11 @@ const Icons = () => {
               ></path>{" "}
             </g>
           </svg>
-        </span>
-        <span className="border rounded pl-2 ml-2">
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UCQB33GJ0C3pL3IpxpVFQS2Q"
+          className="border rounded pl-2 ml-2"
+        >
           <svg
             viewBox="0 -3 20 20"
             version="1.1"
@@ -72,8 +78,11 @@ const Icons = () => {
               </g>{" "}
             </g>
           </svg>
-        </span>
-        <span className="border rounded pl-2 ml-2">
+        </a>
+        <a
+          href="https://www.linkedin.com/company/deshcareer"
+          className="border rounded pl-2 ml-2"
+        >
           <svg
             viewBox="0 0 20 20"
             version="1.1"
@@ -119,9 +128,9 @@ const Icons = () => {
               </g>{" "}
             </g>
           </svg>
-        </span>
+        </a>
       </div>
-    </div>
+    </>
   );
 }
 
